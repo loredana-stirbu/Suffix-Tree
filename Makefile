@@ -1,9 +1,9 @@
 build: 	
-	gcc -std=c9x -g -O0 -Wall -Wextra tema2.c -o tema2
+	gcc -std=c9x -g -O0 -Wall -Wextra tema2.c -o suffix_tree
 
 run:
-	./tema2 
+	./suffix_tree
 	
 clean:
-	rm -f tema2
+	rm -f suffix_tree
 
